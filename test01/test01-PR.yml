@@ -1,1 +1,10 @@
-#
+pr:
+  branches:
+    include:
+    - main
+  paths:
+    include:
+    - pipelines/code
+    exclude:
+    - pipelines/test01
+    - pipelines/test02
