@@ -4,10 +4,10 @@ pr:
     - main
   paths:
     include:
-    - pipelines/code
+    - code
     exclude:
-    - pipelines/test01
-    - pipelines/test02
+    - test01
+    - test02
 
 steps:
 - script: echo This pipeline will be triggered by Pull Request !
