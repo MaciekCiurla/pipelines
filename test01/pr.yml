@@ -1,13 +1,5 @@
 pr:
-  branches:
-    include:
-    - main
-  paths:
-    include:
-    - code
-    exclude:
-    - test01
-    - test02
+- main
 
 steps:
 - script: echo This pipeline will be triggered by Pull Request !
