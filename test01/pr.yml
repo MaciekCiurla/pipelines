@@ -8,3 +8,6 @@ pr:
     exclude:
     - pipelines/test01
     - pipelines/test02
+
+steps:
+- script: echo This pipeline will be triggered by Pull Request !
