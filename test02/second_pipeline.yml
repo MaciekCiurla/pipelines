@@ -1,3 +1,5 @@
 # azure-pipelines-template.yml
+trigger: none
+
 steps:
 - script: echo This pipeline will be triggered by another pipeline !
